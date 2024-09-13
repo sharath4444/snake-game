@@ -16,26 +16,22 @@ body {
 }
 
 header, footer {
-    background-color: #004d40; /* Dark Teal for header and footer */
+    background-color: #004d40;
     color: white;
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+    transition: background-color 0.3s ease-in-out;
 }
 
-header:hover {
-    background-color: #00796b; /* Teal for header on hover */
+header:hover, footer:hover {
+    background-color: #00796b;
 }
 
 footer {
     margin-top: auto;
     padding: 10px;
     font-size: 14px;
-}
-
-footer:hover {
-    background-color: #00796b; /* Teal for footer on hover */
 }
 
 header h1, footer p {
@@ -49,21 +45,21 @@ h1 {
 
 .score {
     margin-bottom: 20px;
-    font-size: 24px; /* Increase font size */
-    font-weight: bold; /* Make text bold */
-    background-color: #fff; /* White background for contrast */
-    border: 2px solid #00796b; /* Teal border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px 20px; /* Padding for better spacing */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    color: #00796b; /* Teal text color */
-    text-align: center; /* Center align text */
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #00796b;
+    text-align: center;
 }
 
 .score span {
-    color: #004d40; /* Darker teal for the score number */
-    font-size: 32px; /* Larger font size for the score number */
-    font-family: 'Courier New', Courier, monospace; /* Monospaced font for a digital look */
+    color: #004d40;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 canvas {
@@ -105,7 +101,7 @@ canvas {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+    transition: background-color 0.3s ease-in-out;
 }
 
 #submitScoreButton:hover {
