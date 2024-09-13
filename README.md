@@ -1,4 +1,3 @@
-
 # Snake Game
 
 Welcome to the Snake Game project! 🐍 This is a classic Snake game built using HTML, CSS, and JavaScript. The game features a simple but engaging gameplay where you control a snake to eat food and grow longer. Your objective is to score as high as possible without running into the walls or the snake's own body.
@@ -32,6 +31,10 @@ To play the game locally:
     ```
 3. **Open `index.html` in Your Browser**:
     Simply double-click the `index.html` file or open it in a web browser.
+
+## Deployed Version
+
+You can play the game live [here](https://sharath4444.github.io/snake-game/).
 
 ## Contributing
 
